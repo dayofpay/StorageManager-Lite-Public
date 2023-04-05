@@ -17,12 +17,14 @@ namespace StorageManager.SoftwareForms
             InitializeComponent();
             isDetailed = checkDetailed;
         }
-        public static bool isDetailed = false;
+        public static bool isDetailed = false; // Default Value - <boolean> false
         private void FastCheck_Load(object sender, EventArgs e)
         {
             if(isDetailed == false)
             {
-                MySqlCommand getInfo = new MySqlCommand($"SELECT * FROM items WHERE item_code = '{SoftwareForms.Main.productName}'", Databases.Project.projectDatabase.connection);
+                //{SoftwareForms.Main.productName}
+                MySqlCommand getInfo = new MySqlCommand($"SELECT * FROM items WHERE item_code = @itemCode", Databases.Project.projectDatabase.connection);
+                getInfo.Parameters.AddWithValue("@itemCode", SoftwareForms.Main.productName);
                 using (MySqlDataReader readInfo = getInfo.ExecuteReader())
                 {
                     if (readInfo.HasRows)
@@ -34,9 +36,13 @@ namespace StorageManager.SoftwareForms
                     }
                 }
             }
-            if(isDetailed==true)
+            else if(isDetailed)
             {
-                MySqlCommand getInfo = new MySqlCommand($"SELECT * FROM items WHERE item_name = '{SoftwareForms.Main.prodName}' AND item_location='{SoftwareForms.Main.storageName}'", Databases.Project.projectDatabase.connection);
+                // {SoftwareForms.Main.prodName}
+                // SoftwareForms.Main.storageName
+                MySqlCommand getInfo = new MySqlCommand($"SELECT * FROM items WHERE item_name = @itemName AND item_location=@itemLocation", Databases.Project.projectDatabase.connection);
+                getInfo.Parameters.AddWithValue("@itemName", SoftwareForms.Main.prodName);
+                getInfo.Parameters.AddWithValue("@itemLocation", SoftwareForms.Main.storageName);
                 using (MySqlDataReader readInfo = getInfo.ExecuteReader())
                 {
                     if (readInfo.HasRows)
