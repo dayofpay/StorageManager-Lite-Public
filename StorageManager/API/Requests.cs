@@ -7,6 +7,8 @@ using System.Net;
 using System.IO;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
+using System.Security.Cryptography.X509Certificates;
+using System.ComponentModel;
 
 namespace StorageManager.API
 {
@@ -14,6 +16,7 @@ namespace StorageManager.API
     {
         public static void CheckMainInfo(string username)
         {
+            List<BaseNumberConverter> productGroups = new System.Collections.Generic.List<BaseNumberConverter>();
             MySqlCommand checkMainInfo = new MySqlCommand($"SELECT * FROM users_details WHERE user = @username", Databases.Project.projectDatabase.connection);
             checkMainInfo.Parameters.AddWithValue("@username", username);
             try
