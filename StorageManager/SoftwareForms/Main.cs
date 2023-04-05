@@ -45,6 +45,7 @@ namespace StorageManager.SoftwareForms
                         API.Info.totalStorages++;
                     }
                 }
+                readTotalStorages.Close();
             }
             MySqlCommand checkStorages = new MySqlCommand("SELECT * FROM storage_info", Databases.Project.projectDatabase.connection);
             using (MySqlDataReader readStorages = checkStorages.ExecuteReader())
