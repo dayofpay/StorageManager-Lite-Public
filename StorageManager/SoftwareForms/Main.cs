@@ -94,7 +94,8 @@ namespace StorageManager.SoftwareForms
 
         private void locationSklad_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MySqlCommand checkProducts = new MySqlCommand($"SELECT * FROM items WHERE item_location = '{locationSklad.Text}'", Databases.Project.projectDatabase.connection);
+            MySqlCommand checkProducts = new MySqlCommand($"SELECT * FROM items WHERE item_location = @itemLocation", Databases.Project.projectDatabase.connection);
+            checkProducts.Parameters.AddWithValue("@itemLocation", locationSklad.Text);
             using (MySqlDataReader readProducts = checkProducts.ExecuteReader())
             {
                 //if (products.Items.Contains("Няма добавени продукти в този склад !"))
