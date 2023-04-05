@@ -65,7 +65,7 @@ namespace StorageManager.SoftwareForms
                 }
             }
             API.Requests.CheckMainInfo(API.Info.logUsername);
-            if(API.Info.loggedWithPin == true)
+            if(API.Info.loggedWithPin)
             {
                 nameLabel.Text = API.Info.pregetPersonName;
                 roleLabel.Text = API.Info.getRole;
