@@ -19,16 +19,16 @@ namespace StorageManager.License.ValidateLicense
 
         private void con_Click(object sender, EventArgs e)
         {
-            API.checkLicense.checkExisting(lic1.Text + lic2.Text + lic3.Text + lic4.Text);
-            if(API.Info.validLicense == true)
+
+            if (API.checkLicense.checkExisting(lic1.Text + lic2.Text + lic3.Text + lic4.Text))
             {
                 API.Info.sessionLicense = lic1.Text + lic2.Text + lic3.Text + lic4.Text;
                 License.FinishSetup.Finish finishSetup = new FinishSetup.Finish();
                 finishSetup.ShowDialog();
             }
-            if (!API.Info.validLicense == true)
+            else
             {
-                MessageBox.Show("Лицензовият ключ, който предоставихте, изглежда е грешен или изтекъл ! Моля, свържете се с екипа ни !","V-DEVS Bulgaria | Грешка");
+                MessageBox.Show("Лицензовият ключ, който предоставихте, изглежда е грешен или изтекъл ! Моля, свържете се с екипа ни !", "V-DEVS Bulgaria | Грешка");
             }
         }
 

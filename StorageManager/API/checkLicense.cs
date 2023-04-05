@@ -8,9 +8,9 @@ namespace StorageManager.API
 {
     class checkLicense
     {
-        public static void checkExisting(string licenseId)
+        public static bool checkExisting(string licenseId)
         {
-            MySqlCommand checkL = new MySqlCommand($"SELECT * FROM licenses WHERE license_code =@licenseId AND license_valid = true",Databases.Demo.demoDatabase.connection);
+            MySqlCommand checkL = new MySqlCommand($"SELECT * FROM licenses WHERE license_code = @licenseId AND license_valid = true", Databases.Demo.demoDatabase.connection);
             checkL.Parameters.AddWithValue("licenseId", licenseId);
             using (MySqlDataReader readLicense = checkL.ExecuteReader())
             {
@@ -19,14 +19,19 @@ namespace StorageManager.API
                     if (readLicense.HasRows)
                     {
                         Info.validLicense = true;
+                        return true;
                     }
                     else
                     {
                         Info.validLicense = false;
+                        return false;
                     }
                 }
                 readLicense.Close();
             }
+            // Default value
+            return false;
         }
+
     }
 }
