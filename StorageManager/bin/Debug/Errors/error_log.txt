@@ -1,0 +1,111 @@
+[25.8.2022 г. 11:16:29]Input string was not in a correct format.
+[25.8.2022 г. 11:16:31]Input string was not in a correct format.
+[25.8.2022 г. 11:17:55]Input string was not in a correct format.
+[30.8.2022 г. 4:58:27]Input string was not in a correct format.
+[30.8.2022 г. 5:02:02]Input string was not in a correct format.
+[30.8.2022 г. 5:26:04]Input string was not in a correct format.
+[30.8.2022 г. 5:59:55]Input string was not in a correct format.
+[30.8.2022 г. 6:09:47][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:12:32]Object reference not set to an instance of an object.
+[30.8.2022 г. 6:13:11]Object reference not set to an instance of an object.
+[30.8.2022 г. 6:14:24]Input string was not in a correct format.
+[30.8.2022 г. 6:14:27]Object reference not set to an instance of an object.
+[30.8.2022 г. 6:15:24]Object reference not set to an instance of an object.
+[30.8.2022 г. 6:15:58]Object reference not set to an instance of an object.
+[30.8.2022 г. 6:16:01]Object reference not set to an instance of an object.
+[30.8.2022 г. 6:16:01]Object reference not set to an instance of an object.
+[30.8.2022 г. 6:16:04]Object reference not set to an instance of an object.
+[30.8.2022 г. 6:36:40][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:37:18][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:37:26][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:38:02][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:38:22][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:39:46][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:44:29][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:44:38][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:45:03][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:45:12][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:45:20][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:45:38][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:46:09][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:46:21][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:46:41][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:46:53][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:47:19][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:48:42][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:48:58][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:49:11][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:49:27][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:49:52][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:50:34][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:50:53][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:51:21][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:51:47][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:51:56][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:52:38]Input string was not in a correct format.
+[30.8.2022 г. 6:52:49][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:53:01][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:53:27][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:54:39][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:54:53][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:55:07][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:55:47][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:56:10][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 6:59:04][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 7:05:18][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 7:07:53][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 20:02:34]Collection was modified; enumeration operation may not execute.
+[30.8.2022 г. 20:02:39]Collection was modified; enumeration operation may not execute.
+[30.8.2022 г. 20:02:48][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[30.8.2022 г. 20:04:38]Input string was not in a correct format.
+[30.8.2022 г. 20:04:51][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:11:04][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:13:56][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:16:57][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:20:52][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:25:50][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:26:21][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:29:25][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:30:18][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:30:56][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:31:49][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:32:06][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:33:07]Input string was not in a correct format.
+[31.8.2022 г. 22:33:10][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:33:27][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:33:50][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:34:17][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:34:54][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:35:23][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:36:25][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:38:52][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:41:12][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:44:19][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:45:38][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[31.8.2022 г. 22:45:51][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[1.9.2022 г. 4:22:03][LOGIN Form | Критична грешка | Fatal error encountered during command execution.
+[1.9.2022 г. 4:22:07][LOGIN Form | Критична грешка | Connection must be valid and open.
+[1.9.2022 г. 4:22:10][LOGIN Form | Критична грешка | Connection must be valid and open.
+[1.9.2022 г. 4:22:56][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[1.9.2022 г. 4:23:20][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[12.9.2022 г. 9:27:06]Input string was not in a correct format.
+[12.9.2022 г. 9:27:10][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[12.9.2022 г. 9:28:13][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[12.9.2022 г. 9:47:09][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[12.9.2022 г. 9:50:18]Input string was not in a correct format.
+[12.9.2022 г. 9:50:22]Input string was not in a correct format.
+[12.9.2022 г. 9:50:46][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[12.9.2022 г. 9:58:13][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[12.9.2022 г. 9:58:28][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[2.2.2023 г. 1:20:40][LOGIN Form | Критична грешка | You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '''' at line 1
+[2.2.2023 г. 1:20:42][LOGIN Form | Критична грешка | You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '''' at line 1
+[2.2.2023 г. 1:20:43][LOGIN Form | Критична грешка | You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '''' at line 1
+[2.2.2023 г. 1:21:32][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[2.2.2023 г. 1:24:27][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[2.2.2023 г. 1:25:00]Input string was not in a correct format.
+[2.2.2023 г. 1:25:02]Input string was not in a correct format.
+[2.2.2023 г. 1:25:02]Input string was not in a correct format.
+[2.2.2023 г. 1:25:03][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[2.2.2023 г. 1:26:28][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[2.2.2023 г. 1:30:19][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[2.2.2023 г. 1:31:53][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
