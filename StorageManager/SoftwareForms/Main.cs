@@ -233,13 +233,14 @@ namespace StorageManager.SoftwareForms
 
         private void staffEdit_Click(object sender, EventArgs e)
         {
-            if(API.Info.adminRights == true)
+            if(API.Info.adminRights == true) // TODO
             {
-                // Deistvie
+
+                // Action
             }
             else
             {
-                // Deistvie
+                // Action
             }
         }
     }
