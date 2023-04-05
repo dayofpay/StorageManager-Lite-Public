@@ -18,11 +18,11 @@ namespace StorageManager.API
                 {
                     if (readLicense.HasRows)
                     {
-                        API.Info.validLicense = true;
+                        Info.validLicense = true;
                     }
-                    if (!readLicense.HasRows)
+                    else
                     {
-                        API.Info.validLicense = false;
+                        Info.validLicense = false;
                     }
                 }
                 readLicense.Close();
