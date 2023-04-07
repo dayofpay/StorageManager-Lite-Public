@@ -35,7 +35,8 @@ namespace StorageManager.License.FinishSetup
                 Random randomRecovery = new Random();
                 API.Info.recoveryCode = randomRecovery.Next(10000, 99999);
                 MySqlCommand insertRequest = new MySqlCommand($"INSERT INTO customers_info(projectName,projectBanned,projectBanReason,projectPersonIp,personContactName,personPcName,personPhoneNumber,personMail,recoveryCode)VALUES('{myProjectBox.Text}',false,'null','{API.Info.sessionIp}','{myNameBox.Text}','{Environment.UserName}','{personPhoneNumBox.Text}','{personEmailBox.Text}','{API.Info.recoveryCode}');", Databases.Demo.demoDatabase.connection);
-                MySqlCommand updateLicense = new MySqlCommand($"UPDATE licenses set license_valid = false WHERE license_code = '{API.Info.sessionLicense}'", Databases.Demo.demoDatabase.connection);
+                MySqlCommand updateLicense = new MySqlCommand($"UPDATE licenses set license_valid = false WHERE license_code = @licenseCode", Databases.Demo.demoDatabase.connection);
+                updateLicense.Parameters.AddWithValue("@licenseCode", API.Info.sessionLicense);
                 try
                 {
                     insertRequest.ExecuteScalar();
