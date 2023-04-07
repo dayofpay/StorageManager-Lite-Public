@@ -29,7 +29,7 @@ namespace StorageManager.License.FinishSetup
 
         private void finishSetup_Click(object sender, EventArgs e)
         {
-            if(myProjectBox.Text.Length > 1 & myNameBox.Text.Length >1&&personPhoneNumBox.Text.Length>1 && personEmailBox.Text.Length > 1 && personEmailBox.Text.Contains("@"))
+            if (!string.IsNullOrWhiteSpace(myProjectBox.Text) && !string.IsNullOrWhiteSpace(myNameBox.Text) && !string.IsNullOrWhiteSpace(personPhoneNumBox.Text) && !string.IsNullOrWhiteSpace(personEmailBox.Text) && personEmailBox.Text.Contains("@"))
             {
                 API.Requests.ipRequest();
                 Random randomRecovery = new Random();
