@@ -16,4 +16,5 @@ IMPORTANT: **The software was developed almost two years ago, but since it is no
 - 💉 Penteration & QA Tested
 - 📦 Bunch of animations
 - 🔐 License System
-
+- 🔔 Notification System
+- 💢 Debugger
