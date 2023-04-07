@@ -326,6 +326,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="box_100px.ico" />
+    <Content Include="vdevsonl_storagemanager_demo.sql" />
     <None Include="Resources\lock_error_512px.png" />
     <None Include="Resources\Us Dollar Circled_40px.png" />
     <None Include="Resources\staff_80px.png" />

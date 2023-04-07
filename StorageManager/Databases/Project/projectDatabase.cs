@@ -21,9 +21,9 @@ namespace StorageManager.Databases.Project
         public static bool connected { get; set; }
         public static void Connect()
         {
-            server = "";
-            database = "";
-            user = "";
+            server = "localhost";
+            database = "vdevsonl_storagemanager_demo ";
+            user = "root";
             password = "";
             port = "3306";
             sslM = "none";
