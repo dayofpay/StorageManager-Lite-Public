@@ -39,5 +39,9 @@ namespace StorageManager.ErrorHandler
             }
             return "";
         }
+        public static bool isActive(int errCode,byte memCache,List<Array> errorInput)
+        {
+            return false; // Default
+        }
     }
 }
