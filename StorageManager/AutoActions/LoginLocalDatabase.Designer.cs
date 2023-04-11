@@ -34,6 +34,7 @@
             this.exitButton = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuLoader1 = new Bunifu.UI.WinForms.BunifuLoader();
+            this.alert = new Bunifu.UI.WinForms.BunifuSnackbar(this.components);
             this.SuspendLayout();
             // 
             // awBg
@@ -103,6 +104,75 @@
             this.bunifuLoader1.Thickness = 6;
             this.bunifuLoader1.Transparent = true;
             // 
+            // alert
+            // 
+            this.alert.AllowDragging = false;
+            this.alert.AllowMultipleViews = true;
+            this.alert.ClickToClose = true;
+            this.alert.DoubleClickToClose = true;
+            this.alert.DurationAfterIdle = 3000;
+            this.alert.ErrorOptions.ActionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.alert.ErrorOptions.ActionBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.alert.ErrorOptions.ActionBorderRadius = 1;
+            this.alert.ErrorOptions.ActionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.alert.ErrorOptions.ActionForeColor = System.Drawing.Color.Black;
+            this.alert.ErrorOptions.BackColor = System.Drawing.Color.White;
+            this.alert.ErrorOptions.BorderColor = System.Drawing.Color.White;
+            this.alert.ErrorOptions.CloseIconColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(199)))));
+            this.alert.ErrorOptions.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.alert.ErrorOptions.ForeColor = System.Drawing.Color.Black;
+            this.alert.ErrorOptions.Icon = ((System.Drawing.Image)(resources.GetObject("resource.Icon")));
+            this.alert.ErrorOptions.IconLeftMargin = 12;
+            this.alert.FadeCloseIcon = false;
+            this.alert.Host = Bunifu.UI.WinForms.BunifuSnackbar.Hosts.FormOwner;
+            this.alert.InformationOptions.ActionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.alert.InformationOptions.ActionBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.alert.InformationOptions.ActionBorderRadius = 1;
+            this.alert.InformationOptions.ActionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.alert.InformationOptions.ActionForeColor = System.Drawing.Color.Black;
+            this.alert.InformationOptions.BackColor = System.Drawing.Color.White;
+            this.alert.InformationOptions.BorderColor = System.Drawing.Color.White;
+            this.alert.InformationOptions.CloseIconColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
+            this.alert.InformationOptions.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.alert.InformationOptions.ForeColor = System.Drawing.Color.Black;
+            this.alert.InformationOptions.Icon = ((System.Drawing.Image)(resources.GetObject("resource.Icon1")));
+            this.alert.InformationOptions.IconLeftMargin = 12;
+            this.alert.Margin = 10;
+            this.alert.MaximumSize = new System.Drawing.Size(0, 0);
+            this.alert.MaximumViews = 7;
+            this.alert.MessageRightMargin = 15;
+            this.alert.MinimumSize = new System.Drawing.Size(0, 0);
+            this.alert.ShowBorders = false;
+            this.alert.ShowCloseIcon = false;
+            this.alert.ShowIcon = true;
+            this.alert.ShowShadows = true;
+            this.alert.SuccessOptions.ActionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.alert.SuccessOptions.ActionBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.alert.SuccessOptions.ActionBorderRadius = 1;
+            this.alert.SuccessOptions.ActionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.alert.SuccessOptions.ActionForeColor = System.Drawing.Color.Black;
+            this.alert.SuccessOptions.BackColor = System.Drawing.Color.White;
+            this.alert.SuccessOptions.BorderColor = System.Drawing.Color.White;
+            this.alert.SuccessOptions.CloseIconColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(255)))), ((int)(((byte)(237)))));
+            this.alert.SuccessOptions.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.alert.SuccessOptions.ForeColor = System.Drawing.Color.Black;
+            this.alert.SuccessOptions.Icon = ((System.Drawing.Image)(resources.GetObject("resource.Icon2")));
+            this.alert.SuccessOptions.IconLeftMargin = 12;
+            this.alert.ViewsMargin = 7;
+            this.alert.WarningOptions.ActionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.alert.WarningOptions.ActionBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.alert.WarningOptions.ActionBorderRadius = 1;
+            this.alert.WarningOptions.ActionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.alert.WarningOptions.ActionForeColor = System.Drawing.Color.Black;
+            this.alert.WarningOptions.BackColor = System.Drawing.Color.White;
+            this.alert.WarningOptions.BorderColor = System.Drawing.Color.White;
+            this.alert.WarningOptions.CloseIconColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(143)))));
+            this.alert.WarningOptions.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.alert.WarningOptions.ForeColor = System.Drawing.Color.Black;
+            this.alert.WarningOptions.Icon = ((System.Drawing.Image)(resources.GetObject("resource.Icon3")));
+            this.alert.WarningOptions.IconLeftMargin = 12;
+            this.alert.ZoomCloseIcon = true;
+            // 
             // LoginLocalDatabase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -130,5 +200,6 @@
         private Guna.UI2.WinForms.Guna2Button exitButton;
         private System.Windows.Forms.Label label1;
         private Bunifu.UI.WinForms.BunifuLoader bunifuLoader1;
+        private Bunifu.UI.WinForms.BunifuSnackbar alert;
     }
 }

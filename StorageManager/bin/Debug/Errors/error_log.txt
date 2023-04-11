@@ -110,3 +110,5 @@
 [2.2.2023 г. 1:30:19][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
 [2.2.2023 г. 1:31:53][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
 [7.4.2023 г. 6:02:05][LOGIN Form | Критична грешка | Invalid attempt to Read when reader is closed.
+[11.4.2023 г. 16:00:03] > Грешка с връзката към сървъра
+[11.4.2023 г. 16:00:34] > Грешка с връзката към сървъра

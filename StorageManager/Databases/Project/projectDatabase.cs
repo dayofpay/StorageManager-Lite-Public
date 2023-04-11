@@ -35,7 +35,7 @@ namespace StorageManager.Databases.Project
                 connection.Open();
                 connected = true;
             }
-            catch (MySqlException error)
+            catch (Exception error)
             {
                 MessageBox.Show($"Изглежда, че имаше грешка при опита за връзка към сървъра на V-DEVS. \r\n Моля, свържете се с екипа ни за да ви съдействаме.", "V-DEVS | StorageManager");
                 connected = false;

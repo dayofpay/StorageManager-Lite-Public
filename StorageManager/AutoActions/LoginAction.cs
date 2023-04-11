@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,16 +20,24 @@ namespace StorageManager.AutoActions
 
         private void LoginAction_Load(object sender, EventArgs e)
         {
-            Databases.Demo.demoDatabase.Connect();
-            if(Databases.Demo.demoDatabase.connected == true)
+            try
             {
-                LoginLocalDatabase localLogin = new LoginLocalDatabase();
-                this.Hide();
-                localLogin.ShowDialog();
+                Databases.Demo.demoDatabase.Connect();
+                if (Databases.Demo.demoDatabase.connected)
+                {
+                    LoginLocalDatabase localLogin = new LoginLocalDatabase();
+                    this.Hide();
+                    localLogin.ShowDialog();
+                }
+                else
+                {
+                    exitButton.Visible = true;
+                }
             }
-            else
+            catch(MySqlException mySqlException)
             {
-                exitButton.Visible = true;
+                Console.WriteLine("[Database Connection] | Неуспешна връзка към базата данни | Database Error" + Environment.NewLine + "Info: " + mySqlException.Message);
+                alert.Show(this, "Няма връзка с базата данни, опитайте отново !", Bunifu.UI.WinForms.BunifuSnackbar.MessageTypes.Error);
             }
         }
 

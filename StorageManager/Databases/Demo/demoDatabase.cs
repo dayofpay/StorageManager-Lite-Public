@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,21 +23,22 @@ namespace StorageManager.Databases.Demo
         public static void Connect()
         {
             server = "localhost";
-            database = "vdevsonl_storagemanager_demo ";
+            database = "vdevsonl_storagemanager_demo";
             user = "root";
             password = "";
             port = "3306";
             sslM = "none";
             connectionString = String.Format("server={0};port={1};user id={2}; password={3}; database={4};", server, port, user, password, database, sslM);
             conString = connectionString;
-            connection = new MySqlConnection(conString);
             try
             {
+                connection = new MySqlConnection(conString);
                 connection.Open();
                 connected = true;
             }
-            catch(MySqlException error)
+            catch(Exception error)
             {
+                Console.WriteLine("[Database Connection] | Неуспешна връзка към базата данни | Database Error" + Environment.NewLine + "Info: " + error.Message);
                 MessageBox.Show($"Изглежда, че имаше грешка при опита за връзка към сървъра на V-DEVS. \r\n Моля, свържете се с екипа ни за да ви съдействаме. {error.Message}","V-DEVS | StorageManager");
                 connected = false;
                 ErrorHandler.Handle.WriteError("Грешка с връзката към сървъра");
