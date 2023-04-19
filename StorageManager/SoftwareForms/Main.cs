@@ -234,6 +234,7 @@ namespace StorageManager.SoftwareForms
 
         private void staffEdit_Click(object sender, EventArgs e)
         {
+            MessageBox.Show(API.Info.adminRights.ToString());
             if(API.Info.adminRights == true) // TODO
             {
 

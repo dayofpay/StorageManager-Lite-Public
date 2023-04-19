@@ -201,6 +201,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API\checkLicense.cs" />
+    <Compile Include="API\fetchUsers.cs" />
     <Compile Include="API\Info.cs" />
     <Compile Include="API\Requests.cs" />
     <Compile Include="AutoActions\LoginAction.cs">
